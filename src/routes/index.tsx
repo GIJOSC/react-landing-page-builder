@@ -65,11 +65,6 @@ const lojas = [
     bairro: "Móveis Soltos & Planejados",
   },
   {
-    nome: "Villa Romana Shopping",
-    endereco: "Rua Dom Jaime Câmara, 750 — Florianópolis/SC",
-    bairro: "Centro",
-  },
-  {
     nome: "Itaguaçu Shopping",
     endereco: "Rod. Gov. Ivo Silveira — São José/SC",
     bairro: "Estofados & Decoração",
@@ -320,7 +315,7 @@ function Lojas() {
               e acabamentos para o seu ambiente.
             </p>
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5548991906288"
               target="_blank"
               rel="noreferrer"
               className="inline-block bg-brand-dark text-brand-beige px-10 py-4 text-xs uppercase tracking-[0.25em] hover:bg-brand-olive transition-colors"
@@ -346,7 +341,7 @@ function Lojas() {
               Linktree
             </a>
             <a
-              href="https://wa.me/5548999999999"
+              href="https://wa.me/5548991906288"
               target="_blank"
               rel="noreferrer"
               className="hover:opacity-60 transition-opacity"
