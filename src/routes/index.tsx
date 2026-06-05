@@ -60,14 +60,19 @@ const produtos = [
 
 const lojas = [
   {
-    nome: "Flagship São Paulo",
-    endereco: "Alameda Gabriel Monteiro da Silva, 1200",
-    bairro: "Jardim Paulistano — (11) 3062.0000",
+    nome: "Continente Shopping",
+    endereco: "Rod. SC-401 — São José/SC",
+    bairro: "Móveis Soltos & Planejados",
   },
   {
-    nome: "Showroom Curitiba",
-    endereco: "Rua Desembargador Costa Carvalho, 450",
-    bairro: "Batel — (41) 3222.0000",
+    nome: "Villa Romana Shopping",
+    endereco: "Rua Dom Jaime Câmara, 750 — Florianópolis/SC",
+    bairro: "Centro",
+  },
+  {
+    nome: "Itaguaçu Shopping",
+    endereco: "Rod. Gov. Ivo Silveira — São José/SC",
+    bairro: "Estofados & Decoração",
   },
 ];
 
