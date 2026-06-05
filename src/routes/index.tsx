@@ -60,14 +60,19 @@ const produtos = [
 
 const lojas = [
   {
-    nome: "Flagship São Paulo",
-    endereco: "Alameda Gabriel Monteiro da Silva, 1200",
-    bairro: "Jardim Paulistano — (11) 3062.0000",
+    nome: "Continente Shopping",
+    endereco: "Rod. SC-401 — São José/SC",
+    bairro: "Móveis Soltos & Planejados",
   },
   {
-    nome: "Showroom Curitiba",
-    endereco: "Rua Desembargador Costa Carvalho, 450",
-    bairro: "Batel — (41) 3222.0000",
+    nome: "Villa Romana Shopping",
+    endereco: "Rua Dom Jaime Câmara, 750 — Florianópolis/SC",
+    bairro: "Centro",
+  },
+  {
+    nome: "Itaguaçu Shopping",
+    endereco: "Rod. Gov. Ivo Silveira — São José/SC",
+    bairro: "Estofados & Decoração",
   },
 ];
 
@@ -167,15 +172,15 @@ function Hero() {
       <div className="absolute inset-0 bg-brand-dark/40" />
       <div className="relative z-10 text-center text-brand-beige px-6 max-w-4xl">
         <span className="text-[11px] uppercase tracking-[0.4em] font-medium opacity-80 block mb-8">
-          Coleção 2026 — Brasil
+          Florianópolis · Santa Catarina
         </span>
         <h1 className="font-serif italic text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-8 text-balance">
-          O design que <br className="hidden md:inline" />
-          respira sua casa
+          Realizando sonhos <br className="hidden md:inline" />
+          através dos móveis
         </h1>
         <p className="max-w-lg mx-auto text-sm md:text-base font-light tracking-wide opacity-90 leading-relaxed">
-          Móveis e estofados de autor — selecionados para transformar ambientes com
-          elegância, conforto e a alma da madeira maciça.
+          Móveis soltos & planejados de alto padrão — design, conforto e
+          sofisticação para transformar cada ambiente da sua casa.
         </p>
         <a
           href="#contato"
@@ -324,13 +329,28 @@ function Lojas() {
             </a>
           </div>
           <div className="mt-12 pt-10 border-t border-brand-dark/10 flex gap-8 text-[10px] uppercase tracking-[0.25em]">
-            <a href="#" className="hover:opacity-60 transition-opacity">
+            <a
+              href="https://www.instagram.com/moveis.ecomade/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
               Instagram
             </a>
-            <a href="#" className="hover:opacity-60 transition-opacity">
-              Pinterest
+            <a
+              href="https://linktr.ee/moveisecomade"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
+              Linktree
             </a>
-            <a href="#" className="hover:opacity-60 transition-opacity">
+            <a
+              href="https://wa.me/5548999999999"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
               WhatsApp
             </a>
           </div>
