@@ -329,13 +329,28 @@ function Lojas() {
             </a>
           </div>
           <div className="mt-12 pt-10 border-t border-brand-dark/10 flex gap-8 text-[10px] uppercase tracking-[0.25em]">
-            <a href="#" className="hover:opacity-60 transition-opacity">
+            <a
+              href="https://www.instagram.com/moveis.ecomade/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
               Instagram
             </a>
-            <a href="#" className="hover:opacity-60 transition-opacity">
-              Pinterest
+            <a
+              href="https://linktr.ee/moveisecomade"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
+              Linktree
             </a>
-            <a href="#" className="hover:opacity-60 transition-opacity">
+            <a
+              href="https://wa.me/5548999999999"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:opacity-60 transition-opacity"
+            >
               WhatsApp
             </a>
           </div>
