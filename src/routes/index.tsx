@@ -172,15 +172,15 @@ function Hero() {
       <div className="absolute inset-0 bg-brand-dark/40" />
       <div className="relative z-10 text-center text-brand-beige px-6 max-w-4xl">
         <span className="text-[11px] uppercase tracking-[0.4em] font-medium opacity-80 block mb-8">
-          Coleção 2026 — Brasil
+          Florianópolis · Santa Catarina
         </span>
         <h1 className="font-serif italic text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-8 text-balance">
-          O design que <br className="hidden md:inline" />
-          respira sua casa
+          Realizando sonhos <br className="hidden md:inline" />
+          através dos móveis
         </h1>
         <p className="max-w-lg mx-auto text-sm md:text-base font-light tracking-wide opacity-90 leading-relaxed">
-          Móveis e estofados de autor — selecionados para transformar ambientes com
-          elegância, conforto e a alma da madeira maciça.
+          Móveis soltos & planejados de alto padrão — design, conforto e
+          sofisticação para transformar cada ambiente da sua casa.
         </p>
         <a
           href="#contato"
