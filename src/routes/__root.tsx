@@ -84,7 +84,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Mobiliário de autor: sofás, poltronas, mesas e cadeiras que traduzem design, conforto e sofisticação para o seu ambiente.",
       },
       { name: "author", content: "Ecomade" },
-      { property: "og:title", content: "Ecomade — Móveis e Estofados" },
+      { property: "og:title", content: "Ecomade — Móveis e Estofados de Alto Padrão" },
       {
         property: "og:description",
         content:
@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Ecomade — Móveis e Estofados de Alto Padrão" },
+      { name: "description", content: "ecomade is a React landing page built with Vite and Tailwind CSS, showcasing furniture products." },
+      { property: "og:description", content: "ecomade is a React landing page built with Vite and Tailwind CSS, showcasing furniture products." },
+      { name: "twitter:description", content: "ecomade is a React landing page built with Vite and Tailwind CSS, showcasing furniture products." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0031a2c5-b39e-4aa9-810e-2cdca6099fa8/id-preview-1afb9f57--1be48fb9-75af-49a5-9250-eaf9462eebde.lovable.app-1780710485830.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0031a2c5-b39e-4aa9-810e-2cdca6099fa8/id-preview-1afb9f57--1be48fb9-75af-49a5-9250-eaf9462eebde.lovable.app-1780710485830.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
