@@ -1,16 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 
-import logoAsset from "@/assets/logo.png.asset.json";
-import moveis1 from "@/assets/moveis1.jpg.asset.json";
-import moveis2 from "@/assets/moveis2.jpg.asset.json";
-import moveis3 from "@/assets/moveis3.jpg.asset.json";
-import moveis4 from "@/assets/moveis4.jpeg.asset.json";
-import video1 from "@/assets/video1.mp4.asset.json";
-import video2 from "@/assets/video2.mp4.asset.json";
-import video3 from "@/assets/video3.mp4.asset.json";
-import video4 from "@/assets/video4.mp4.asset.json";
-import video5 from "@/assets/video5.mp4.asset.json";
+import logoAsset from "@/assets/logo.png";
+import moveis1 from "@/assets/moveis1.jpg";
+import moveis2 from "@/assets/moveis2.jpg";
+import moveis3 from "@/assets/moveis3.jpg";
+import moveis4 from "@/assets/moveis4.jpeg";
+import video1 from "@/assets/video1.mp4";
+import video2 from "@/assets/video2.mp4";
+import video3 from "@/assets/video3.mp4";
+import video4 from "@/assets/video4.mp4";
+import video5 from "@/assets/video5.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,8 +27,8 @@ export const Route = createFileRoute("/")({
         content:
           "Curadoria de móveis e estofados de alto padrão para transformar ambientes com elegância.",
       },
-      { property: "og:image", content: moveis4.url },
-      { name: "twitter:image", content: moveis4.url },
+      { property: "og:image", content: moveis4 },
+      { name: "twitter:image", content: moveis4 },
     ],
   }),
   component: Index,
@@ -38,24 +38,24 @@ const ambientes = [
   {
     title: "Sala de Jantar",
     subtitle: "Mesa em madeira maciça & cadeiras estofadas",
-    image: moveis1.url,
+    image: moveis1,
     span: "md:col-span-8",
     aspect: "aspect-[16/10]",
   },
   {
     title: "Poltronas Orgânicas",
     subtitle: "Curvas suaves em tecido sage",
-    image: moveis3.url,
+    image: moveis3,
     span: "md:col-span-4 md:mt-12",
     aspect: "aspect-[4/5]",
   },
 ];
 
 const produtos = [
-  { name: "Poltrona Flora", caption: "Estofado em tecido sage", image: moveis3.url },
-  { name: "Cadeira Lunna", caption: "Acabamento boucle", image: moveis2.url },
-  { name: "Módulo Horizonte", caption: "Sofá modular configurável", image: moveis4.url },
-  { name: "Mesa Gaia", caption: "Madeira maciça envernizada", image: moveis1.url },
+  { name: "Poltrona Flora", caption: "Estofado em tecido sage", image: moveis3 },
+  { name: "Cadeira Lunna", caption: "Acabamento boucle", image: moveis2 },
+  { name: "Módulo Horizonte", caption: "Sofá modular configurável", image: moveis4 },
+  { name: "Mesa Gaia", caption: "Madeira maciça envernizada", image: moveis1 },
 ];
 
 const lojas = [
@@ -71,7 +71,7 @@ const lojas = [
   },
 ];
 
-const heroVideos = [video1.url, video2.url, video3.url, video4.url, video5.url];
+const heroVideos = [video1, video2, video3, video4, video5];
 
 function Index() {
   return (
@@ -116,10 +116,10 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
         <a href="#" className="flex items-center gap-3">
           <img
-            src={logoAsset.url}
-            alt="Ecomade"
-            className="h-10 w-10 object-contain"
-          />
+              src={logoAsset}
+              alt="Ecomade"
+              className="h-10 w-10 object-contain"
+            />
           <span className="font-serif italic text-2xl tracking-tight">Ecomade</span>
         </a>
         <div className="hidden md:flex items-center gap-10 text-[11px] uppercase tracking-[0.25em] font-medium">
@@ -159,7 +159,7 @@ function Hero() {
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
         src={heroVideos[index]}
-        poster={moveis4.url}
+        poster={moveis4}
         autoPlay
         muted
         playsInline
@@ -231,12 +231,12 @@ function Ambientes() {
 
         <article className="md:col-span-12 group cursor-pointer mt-6">
           <div className="overflow-hidden mb-4">
-            <img
-              src={moveis4.url}
-              alt="Sala de Estar com sofá modular"
-              loading="lazy"
-              className="w-full h-[400px] md:h-[560px] object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+              <img
+                src={moveis4}
+                alt="Sala de Estar com sofá modular"
+                loading="lazy"
+                className="w-full h-[400px] md:h-[560px] object-cover transition-transform duration-700 group-hover:scale-105"
+              />
           </div>
           <h3 className="text-xl font-serif italic">Sala de Estar</h3>
           <p className="text-xs text-brand-stone uppercase tracking-widest mt-1">
@@ -360,7 +360,7 @@ function SiteFooter() {
     <footer className="px-6 lg:px-8 pb-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 border-t border-brand-dark/10 pt-8">
         <div className="flex items-center gap-3">
-          <img src={logoAsset.url} alt="Ecomade" className="h-8 w-8 object-contain" />
+          <img src={logoAsset} alt="Ecomade" className="h-8 w-8 object-contain" />
           <span className="text-xl font-serif italic">Ecomade</span>
         </div>
         <p className="text-[10px] uppercase tracking-[0.3em] opacity-50">
